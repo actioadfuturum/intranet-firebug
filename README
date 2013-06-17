@@ -8,12 +8,12 @@ TCLFire is an adaptation of the FirePHP API to TCL. It allows sending
 debugging information to the browsers console and supports commonly 
 used tcl data types. 
 
-TCLFire requires the Browser Extensions “Firebug”/“Chrome Developer Tools” 
-and and at least tcl 8.5 to work.
+TCLFire requires browser extensions “Firebug”/“Chrome Developer Tools” 
+and tcl 8.5 or later.
  
-TCLFire has been developed to work with ]project-open[ (http://www.project-open.org), 
-an Open Source Project Management System that is build on top of the 
-OpenACS Framework (http://www.openacs.org/). 
+It had been developed in tthefirst place to work with ]project-open[ 
+(http://www.project-open.org), an Open Source Project Management System 
+that is build on top of the OpenACS Framework (http://www.openacs.org/). 
  
 Currently available debugging techniques for OpenACS provide debugging 
 information either right on the screen or in a log file. Screen output is 
