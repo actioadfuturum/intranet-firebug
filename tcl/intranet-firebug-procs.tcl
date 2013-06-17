@@ -1,9 +1,9 @@
-# /packages/intranet-portfolio-management/tcl/intranet-firebug-procs.tcl
+# /packages/intranet-firebug/tcl/intranet-firebug-procs.tcl
 #
 # Copyright (C) 2012 - Josep Vela - jv@actioadfuturum.com
 #
-# All rights reserved. Please check
-# http://www.project-open.com/license/ for details.
+# 
+# 
 
 ad_library {
 
