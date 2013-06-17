@@ -3,7 +3,9 @@
 # Copyright (C) 2012 - Josep Vela - jv@actioadfuturum.com
 #
 # 
-# 
+# This code is released under the MIT License.
+# For additional information please see http://opensource.org/licenses/MIT
+
 
 ad_library {
 
