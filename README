@@ -37,7 +37,7 @@ Please use the OpenACS Package Manager to install the package.
 ----------------  USAGE ----------------  
 
 Format:
-      fireBug arg arg 
+      fireBug MESSAGE [OPTIONS]
 
 Options:
     	-Type      	Icons will indicate Message type.
@@ -59,7 +59,7 @@ In order to simplify the usage, following functions have been created:
 fb_log 		message     	Displays a simple message log.
 fb_warn 	message   	  Displays a message with a warning icon.
 fb_info 	message    	  Displays a message with an information icon
-fb_Error 	message   	  Displays a message with an error icon
+fb_Error message   	  Displays a message with an error icon
 fb_var 		$varname	    Displays the value of the indicated variable
 
 
