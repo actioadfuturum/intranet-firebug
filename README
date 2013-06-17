@@ -2,4 +2,75 @@
 -- README file for intranet-firebug - by Josep Vela 
 -----------------------------------------------------------------------
 
+------------------------ TCLFire ------------------------
+ 
+TCLFire is an adaptation of the FirePHP API to TCL. It allows sending 
+debugging information to the browsers console and supports commonly 
+used tcl data types. 
+
+TCLFire requires the Browser Extensions “Firebug”/“Chrome Developer Tools” 
+and and at least tcl 8.5 to work.
+ 
+TCLFire has been developed to work with ]project-open[ (http://www.project-open.org), 
+an Open Source Project Management System that is build on top of the 
+OpenACS Framework (http://www.openacs.org/). 
+ 
+Currently available debugging techniques for OpenACS provide debugging 
+information either right on the screen or in a log file. Screen output is 
+not always desired or possible and might corrupt the presentation. 
+Output to the logfile needs to be extracted using OS tools such as cat, 
+tail, grep or other applications and system tools.  
+ 
+Using TCLFire, debugging data is added to the HTML Protocol Header and
+can be conveniently visualized by Browser AddOn’s mentioned above. 
+Multidimensional data structures can be conveniently viewed using the 
+“digg-in” features of the AddOn’s mentioned above.
+ 
+TCLFire in its current version runs with Google Chrome and FF. 
+Suggestions and other improvements by the community are welcome.
+ 
+
+----------------  Installation ----------------  
+
+Please use the OpenACS Package Manager to install the package.
+ 
+----------------  USAGE ----------------  
+
+Format:
+      fireBug arg arg 
+
+Options:
+    	-Type      	Icons will indicate Message type.
+               		The following parameters are supported:
+               		LOG, WARN INFO, ERROR
+               		Default is LOG
+ 
+    	-Collapsed 	Displays a message group without unfolding.
+    	-Color     	Color of message  
+    	-Label     	Provides a message label
+    	-Group     	Allows grouping of messages
+    	-Output    	Content to be shown in the console
+ 
+
+
+Auxiliary functions:
+In order to simplify the usage, following functions have been created:
+ 
+fb_log 		message     	Displays a simple message log.
+fb_warn 	message   	  Displays a message with a warning icon.
+fb_info 	message    	  Displays a message with an information icon
+fb_Error 	message   	  Displays a message with an error icon
+fb_var 		$varname	    Displays the value of the indicated variable
+
+
+----------------  Example ----------------
+ 
+For examples please see file ‘test-fb.adp’
+
+
+----------------  Documentation in spanish ----------------
+
+A spanish version of the documentation including screenshots 
+is avilable in the /doc folder
+
 
