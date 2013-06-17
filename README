@@ -11,7 +11,7 @@ used tcl data types.
 TCLFire requires browser extensions “Firebug”/“Chrome Developer Tools” 
 and tcl 8.5 or later.
  
-It had been developed in tthefirst place to work with ]project-open[ 
+It had been developed in the first place to work with ]project-open[ 
 (http://www.project-open.org), an Open Source Project Management System 
 that is build on top of the OpenACS Framework (http://www.openacs.org/). 
  
